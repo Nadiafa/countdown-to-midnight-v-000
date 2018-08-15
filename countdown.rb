@@ -1,6 +1,7 @@
 #write your code here
 
 def countdown(i)
+  sleep 5
   while i>0 
     puts "#{i} SECOND(S)!"
     sleep 1
