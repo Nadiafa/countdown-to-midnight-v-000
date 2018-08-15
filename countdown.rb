@@ -10,6 +10,10 @@ def countdown(i)
     "HAPPY NEW YEAR!"
 end
 
+def countdown_with_sleep(n)
+   sleep 5
+  countdown(i)
+end 
 
   #countdown
     # outputs '<n> SECOND(S)!' string to STDOUT for each count (FAILED - 1)
